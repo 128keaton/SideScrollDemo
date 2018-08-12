@@ -1,0 +1,28 @@
+  body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+  .sidey-scroll{
+    width: 550px;
+    overflow-x: scroll;
+    display: flex;
+    border-radius: 12px;
+  }
+  .box{
+    display: block;
+    width: 120px;
+    padding: 100px;
+    background-color: red;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+  i{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
